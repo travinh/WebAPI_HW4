@@ -1,0 +1,855 @@
+{
+	"id": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+	"name": "HW4",
+	"description": "This is HW4 for movie collection",
+	"order": [
+		"80ef9c43-7efd-6f55-cfa2-68f04446cac7",
+		"cc374c16-bba3-73b2-3fd1-d6c09828bfe7",
+		"b83a96ac-8e4e-8928-7ee0-f05cd63c0583",
+		"9ac8a0cb-cf4c-3bb4-8229-1e5b3a68d419",
+		"27af1cc9-6fb2-0a39-717a-a94e145026a0",
+		"ddf2cfb9-8894-cf42-a0a4-3b94b1f37afc",
+		"5370ba35-c082-163e-9612-dcf1e34df399"
+	],
+	"folders": [],
+	"timestamp": 1491108758764,
+	"owner": "1497764",
+	"public": false,
+	"requests": [
+		{
+			"id": "27af1cc9-6fb2-0a39-717a-a94e145026a0",
+			"headers": "",
+			"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3d",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+			"description": "Get one movie information fail",
+			"descriptionFormat": "html",
+			"time": 1491109236124,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 353,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "200",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 05:00:28 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"c8-r1SutC9s/E/853hJVP08vwQ2O88\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":{\"name\":\"entity_not_found\",\"description\":\"Cannot find entity with name: 0e8827d6-1761-11e7-990c-0eec2415f3d\",\"exception\":\"org.apache.usergrid.persistence.exceptions.EntityNotFoundException\"}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "02caa0a9-d81c-fbda-a731-afb70986eddc",
+					"name": "Fail version get one movie",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3d",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5370ba35-c082-163e-9612-dcf1e34df399",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://vinh1993-test.apigee.net/movie/movies/7b1e9e68-1761-11e7-9fee-0ad881f403bf",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://vinh1993-test.apigee.net/movie/movies/7b1e9e68-1761-11e7-9fee-0ad881f403bf",
+			"description": "Update movie's information  success!",
+			"descriptionFormat": "html",
+			"time": 1491109616354,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 865,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1567",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 05:06:39 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"61f-/J55Rd7K1Po0r59yyXHJAhMMe8U\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Updated successful!\",\"movie\":{\"statusCode\":200,\"body\":{\"action\":\"put\",\"application\":\"8e19d668-1642-11e7-a2c2-122e0737977d\",\"params\":{},\"path\":\"/movies\",\"uri\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies\",\"entities\":[{\"uuid\":\"7b1e9e68-1761-11e7-9fee-0ad881f403bf\",\"type\":\"movie\",\"created\":1491109310296,\"modified\":1491109599642,\"actors\":[{\"firstName\":\"Ty\",\"lastName\":\"Chris\",\"age\":20,\"height\":55},{\"firstName\":\"Strange\",\"lastName\":\"Kyer\",\"age\":22,\"height\":56}],\"ID\":\"004\",\"metadata\":{\"path\":\"/movies/7b1e9e68-1761-11e7-9fee-0ad881f403bf\",\"size\":638},\"title\":\"KungFu panda\",\"year\":2012}],\"timestamp\":1491109599592,\"duration\":79,\"organization\":\"vinh\",\"applicationName\":\"sandbox\"},\"headers\":{\"access-control-allow-origin\":\"*\",\"content-type\":\"application/json\",\"date\":\"Sun, 02 Apr 2017 05:06:39 GMT\",\"server\":\"Apache-Coyote/1.1\",\"set-cookie\":[\"rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sat, 01-Apr-2017 05:06:39 GMT\"],\"content-length\":\"859\",\"connection\":\"keep-alive\"},\"request\":{\"uri\":{\"protocol\":\"https:\",\"slashes\":true,\"auth\":null,\"host\":\"apibaas-trial.apigee.net\",\"port\":443,\"hostname\":\"apibaas-trial.apigee.net\",\"hash\":null,\"search\":null,\"query\":null,\"pathname\":\"/vinh/sandbox/movie/7b1e9e68-1761-11e7-9fee-0ad881f403bf\",\"path\":\"/vinh/sandbox/movie/7b1e9e68-1761-11e7-9fee-0ad881f403bf\",\"href\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movie/7b1e9e68-1761-11e7-9fee-0ad881f403bf\"},\"method\":\"PUT\",\"headers\":{\"User-Agent\":\"usergrid-nodejs/v2.0.0-rc.2\",\"accept\":\"application/json\",\"content-type\":\"application/json\",\"content-length\":368}}}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "d2be4bb0-09aa-5a88-1de3-8400211bad36",
+					"name": "Updated successful!",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movies/7b1e9e68-1761-11e7-9fee-0ad881f403bf",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"data": "\n { \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Ty\",         \n\"lastName\": \"Chris\",          \n\"age\": 20,\n\"height\": 55\n},    \n{ \"firstName\": \"Strange\",        \n\"lastName\": \"Kyer\",         \n\"age\": 22,\n\"height\": 56\n}],\n\"ID\": \"004\",     \n\"title\": \"KungFu panda\",      \n\"year\":  2012\n}}",
+						"method": "PUT",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\n { \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Ty\",         \n\"lastName\": \"Chris\",          \n\"age\": 20,\n\"height\": 55\n},    \n{ \"firstName\": \"Strange\",        \n\"lastName\": \"Kyer\",         \n\"age\": 22,\n\"height\": 56\n}],\n\"ID\": \"004\",     \n\"title\": \"KungFu panda\",      \n\"year\":  2012\n}}"
+		},
+		{
+			"id": "80ef9c43-7efd-6f55-cfa2-68f04446cac7",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://vinh1993-test.apigee.net/movie/movie\n",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://vinh1993-test.apigee.net/movie/movie\n",
+			"description": "Create a new movie collection",
+			"descriptionFormat": "html",
+			"time": 1491108843718,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 873,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1402",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 04:53:27 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"57a-dtYDGRknsBl9F6UC32JNh1Z2p7Q\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Create successful!\",\"movie\":{\"statusCode\":200,\"body\":{\"action\":\"post\",\"application\":\"8e19d668-1642-11e7-a2c2-122e0737977d\",\"params\":{},\"path\":\"/movies\",\"uri\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies\",\"entities\":[{\"uuid\":\"4f7fbc48-1760-11e7-990c-0eec2415f3df\",\"type\":\"movie\",\"created\":1491108807616,\"modified\":1491108807616,\"actors\":[{\"firstName\":\"Chris\",\"lastName\":\"Tran\",\"age\":31,\"height\":60}],\"ID\":\"002\",\"metadata\":{\"path\":\"/movies/4f7fbc48-1760-11e7-990c-0eec2415f3df\",\"size\":529},\"title\":\"Captain VietNam\",\"year\":2020}],\"timestamp\":1491108807605,\"duration\":42,\"organization\":\"vinh\",\"applicationName\":\"sandbox\"},\"headers\":{\"access-control-allow-origin\":\"*\",\"content-type\":\"application/json\",\"date\":\"Sun, 02 Apr 2017 04:53:27 GMT\",\"server\":\"Apache-Coyote/1.1\",\"set-cookie\":[\"rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sat, 01-Apr-2017 04:53:27 GMT\"],\"content-length\":\"760\",\"connection\":\"keep-alive\"},\"request\":{\"uri\":{\"protocol\":\"https:\",\"slashes\":true,\"auth\":null,\"host\":\"apibaas-trial.apigee.net\",\"port\":443,\"hostname\":\"apibaas-trial.apigee.net\",\"hash\":null,\"search\":null,\"query\":null,\"pathname\":\"/vinh/sandbox/movie/\",\"path\":\"/vinh/sandbox/movie/\",\"href\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movie/\"},\"method\":\"POST\",\"headers\":{\"User-Agent\":\"usergrid-nodejs/v2.0.0-rc.2\",\"accept\":\"application/json\",\"content-type\":\"application/json\",\"content-length\":137}}}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "2064e8d6-7169-8380-dcf6-5a46c12eb51c",
+					"name": "Create Success",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movie\n",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"name": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"data": "{ \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Chris\",         \n\"lastName\": \"Tran\",          \n\"age\": 31,\n\"height\": 60\n}        \n],      \n\"ID\": \"002\",     \n\"title\": \"Captain VietNam\",      \n\"year\": 2020   }}\n",
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Chris\",         \n\"lastName\": \"Tran\",          \n\"age\": 31,\n\"height\": 60\n}        \n],      \n\"ID\": \"002\",     \n\"title\": \"Captain VietNam\",      \n\"year\": 2020   }}\n"
+		},
+		{
+			"id": "9ac8a0cb-cf4c-3bb4-8229-1e5b3a68d419",
+			"headers": "",
+			"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+			"description": "Get one movie information",
+			"descriptionFormat": "html",
+			"time": 1491109216423,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 663,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1485",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 05:00:01 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"5cd-vYR6/PLeXo8WsDTwJlaeln8vbNY\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"movie\":{\"statusCode\":200,\"body\":{\"action\":\"get\",\"application\":\"8e19d668-1642-11e7-a2c2-122e0737977d\",\"params\":{},\"path\":\"/movies\",\"uri\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies\",\"entities\":[{\"uuid\":\"0e8827d6-1761-11e7-990c-0eec2415f3df\",\"type\":\"movie\",\"created\":1491109128116,\"modified\":1491109128341,\"actors\":[{\"firstName\":\"Kelly\",\"lastName\":\"Chris\",\"age\":40,\"height\":65},{\"firstName\":\"Kristen\",\"lastName\":\"Truong\",\"age\":49,\"height\":70}],\"ID\":\"007\",\"metadata\":{\"path\":\"/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"size\":764},\"title\":\"Stars War\",\"year\":2022}],\"timestamp\":1491109201277,\"duration\":35,\"organization\":\"vinh\",\"applicationName\":\"sandbox\"},\"headers\":{\"access-control-allow-origin\":\"*\",\"content-type\":\"application/json\",\"date\":\"Sun, 02 Apr 2017 05:00:01 GMT\",\"server\":\"Apache-Coyote/1.1\",\"set-cookie\":[\"rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sat, 01-Apr-2017 05:00:01 GMT\"],\"content-length\":\"861\",\"connection\":\"keep-alive\"},\"request\":{\"uri\":{\"protocol\":\"https:\",\"slashes\":true,\"auth\":null,\"host\":\"apibaas-trial.apigee.net\",\"port\":443,\"hostname\":\"apibaas-trial.apigee.net\",\"hash\":null,\"search\":null,\"query\":null,\"pathname\":\"/vinh/sandbox/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"path\":\"/vinh/sandbox/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"href\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\"},\"method\":\"GET\",\"headers\":{\"User-Agent\":\"usergrid-nodejs/v2.0.0-rc.2\",\"accept\":\"application/json\"}}}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "0b5415a7-c648-5011-ef3f-d8be9dd1aa7f",
+					"name": "Get one movie info success",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b83a96ac-8e4e-8928-7ee0-f05cd63c0583",
+			"headers": "//Content-Type: application/json\n",
+			"url": "https://vinh1993-test.apigee.net/movie/movie",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://vinh1993-test.apigee.net/movie/movie",
+			"description": "Get All the movies",
+			"descriptionFormat": "html",
+			"time": 1491109159808,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 714,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "2679",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 04:58:56 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"a77-e/ykWBxY9xv8A1DZNfL3NRQShqo\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"movies\":[{\"uuid\":\"0e8827d6-1761-11e7-990c-0eec2415f3df\",\"type\":\"movie\",\"created\":1491109128116,\"modified\":1491109128341,\"actors\":[{\"firstName\":\"Kelly\",\"lastName\":\"Chris\",\"age\":40,\"height\":65},{\"firstName\":\"Kristen\",\"lastName\":\"Truong\",\"age\":49,\"height\":70}],\"ID\":\"007\",\"metadata\":{\"path\":\"/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"size\":764},\"title\":\"Stars War\",\"year\":2022},{\"uuid\":\"ed897fa7-1760-11e7-a2c2-122e0737977d\",\"type\":\"movie\",\"created\":1491109072760,\"modified\":1491109072997,\"actors\":[{\"firstName\":\"Hung\",\"lastName\":\"Truong\",\"age\":55,\"height\":67}],\"ID\":\"004\",\"metadata\":{\"path\":\"/movies/ed897fa7-1760-11e7-a2c2-122e0737977d\",\"size\":630},\"title\":\"Bleach\",\"year\":2007},{\"uuid\":\"a6ef76c1-1760-11e7-9fee-0ad881f403bf\",\"type\":\"movie\",\"created\":1491108954310,\"modified\":1491108954535,\"actors\":[{\"firstName\":\"Josh\",\"lastName\":\"Nguyen\",\"age\":40,\"height\":66},{\"firstName\":\"Daly\",\"lastName\":\"Taylor\",\"age\":32,\"height\":55},{\"firstName\":\"Drew\",\"lastName\":\"Funkup\",\"age\":32,\"height\":56}],\"ID\":\"004\",\"metadata\":{\"path\":\"/movies/a6ef76c1-1760-11e7-9fee-0ad881f403bf\",\"size\":891},\"title\":\"Dragon Ball\",\"year\":2015},{\"uuid\":\"89aee861-1760-11e7-a2c2-122e0737977d\",\"type\":\"movie\",\"created\":1491108905233,\"modified\":1491108905455,\"actors\":[{\"firstName\":\"Josh\",\"lastName\":\"Nguyen\",\"age\":40,\"height\":66},{\"firstName\":\"Daly\",\"lastName\":\"Taylor\",\"age\":32,\"height\":55},{\"firstName\":\"Drew\",\"lastName\":\"Funkup\",\"age\":32,\"height\":56}],\"ID\":\"004\",\"metadata\":{\"path\":\"/movies/89aee861-1760-11e7-a2c2-122e0737977d\",\"size\":891},\"title\":\"Dragon Ball\",\"year\":2005},{\"uuid\":\"4f7fbc48-1760-11e7-990c-0eec2415f3df\",\"type\":\"movie\",\"created\":1491108807616,\"modified\":1491108807842,\"actors\":[{\"firstName\":\"Chris\",\"lastName\":\"Tran\",\"age\":31,\"height\":60}],\"ID\":\"002\",\"metadata\":{\"path\":\"/movies/4f7fbc48-1760-11e7-990c-0eec2415f3df\",\"size\":638},\"title\":\"Captain VietNam\",\"year\":2020},{\"uuid\":\"1f275569-1760-11e7-990c-0eec2415f3df\",\"type\":\"movie\",\"created\":1491108726506,\"modified\":1491108726729,\"actors\":[{\"firstName\":\"Vinh\",\"lastName\":\"Tran\",\"age\":25,\"height\":67},{\"firstName\":\"Phuong\",\"lastName\":\"Nguyen\",\"age\":43,\"height\":80}],\"ID\":\"001\",\"metadata\":{\"path\":\"/movies/1f275569-1760-11e7-990c-0eec2415f3df\",\"size\":762},\"title\":\"Spider Man\",\"year\":1990},{\"uuid\":\"3be9c500-175e-11e7-a2c2-122e0737977d\",\"type\":\"movie\",\"created\":1491107915763,\"modified\":1491107916090,\"actors\":[{\"firstName\":\"Kate\",\"lastName\":\"Beckinsale\",\"age\":44,\"height\":67},{\"firstName\":\"Tobias\",\"lastName\":\"Menzies\",\"age\":43,\"height\":73},{\"firstName\":\"Theo\",\"lastName\":\"James\",\"age\":33,\"height\":72}],\"ID\":\"003\",\"metadata\":{\"path\":\"/movies/3be9c500-175e-11e7-a2c2-122e0737977d\",\"size\":908},\"title\":\"Underworld: Blood Wars\",\"year\":2016}]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "9f06b67a-ad20-3a6f-de17-ac622ebf5721",
+					"name": "Get All movies success",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movie",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"warning": "",
+								"enabled": false
+							}
+						],
+						"data": "{ \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Kate\",         \n\"lastName\": \"Beckinsale\",          \n\"age\": 44,\n\"height\": 67\n},    \n{ \"firstName\": \"Tobias\",        \n\"lastName\": \"Menzies\",         \n\"age\": 43,\n\"height\": 73\n},        \n{\"firstName\": \"Theo\",          \n\"lastName\": \"James\",         \n\"age\": 33, \n\"height\": 72  \n}],      \n\"ID\": \"003\",     \n\"title\": \"Underworld: Blood Wars\",      \n\"year\": 2016    }}\n",
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Kate\",         \n\"lastName\": \"Beckinsale\",          \n\"age\": 44,\n\"height\": 67\n},    \n{ \"firstName\": \"Tobias\",        \n\"lastName\": \"Menzies\",         \n\"age\": 43,\n\"height\": 73\n},        \n{\"firstName\": \"Theo\",          \n\"lastName\": \"James\",         \n\"age\": 33, \n\"height\": 72  \n}],      \n\"ID\": \"003\",     \n\"title\": \"Underworld: Blood Wars\",      \n\"year\": 2016    }}\n"
+		},
+		{
+			"id": "cc374c16-bba3-73b2-3fd1-d6c09828bfe7",
+			"headers": "Content-Type: application/json\n",
+			"url": "https://vinh1993-test.apigee.net/movie/movie\n",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://vinh1993-test.apigee.net/movie/movie",
+			"description": "Create a new movie collection 2",
+			"descriptionFormat": "html",
+			"time": 1491108989536,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 646,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1523",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 04:55:54 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"5f3-/IaEixYKw7kOAKb6qIvjP0vjvGE\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Create successful!\",\"movie\":{\"statusCode\":200,\"body\":{\"action\":\"post\",\"application\":\"8e19d668-1642-11e7-a2c2-122e0737977d\",\"params\":{},\"path\":\"/movies\",\"uri\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies\",\"entities\":[{\"uuid\":\"a6ef76c1-1760-11e7-9fee-0ad881f403bf\",\"type\":\"movie\",\"created\":1491108954310,\"modified\":1491108954310,\"actors\":[{\"firstName\":\"Josh\",\"lastName\":\"Nguyen\",\"age\":40,\"height\":66},{\"firstName\":\"Daly\",\"lastName\":\"Taylor\",\"age\":32,\"height\":55},{\"firstName\":\"Drew\",\"lastName\":\"Funkup\",\"age\":32,\"height\":56}],\"ID\":\"004\",\"metadata\":{\"path\":\"/movies/a6ef76c1-1760-11e7-9fee-0ad881f403bf\",\"size\":782},\"title\":\"Dragon Ball\",\"year\":2015}],\"timestamp\":1491108954299,\"duration\":35,\"organization\":\"vinh\",\"applicationName\":\"sandbox\"},\"headers\":{\"access-control-allow-origin\":\"*\",\"content-type\":\"application/json\",\"date\":\"Sun, 02 Apr 2017 04:55:54 GMT\",\"server\":\"Apache-Coyote/1.1\",\"set-cookie\":[\"rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sat, 01-Apr-2017 04:55:54 GMT\"],\"content-length\":\"965\",\"connection\":\"keep-alive\"},\"request\":{\"uri\":{\"protocol\":\"https:\",\"slashes\":true,\"auth\":null,\"host\":\"apibaas-trial.apigee.net\",\"port\":443,\"hostname\":\"apibaas-trial.apigee.net\",\"hash\":null,\"search\":null,\"query\":null,\"pathname\":\"/vinh/sandbox/movie/\",\"path\":\"/vinh/sandbox/movie/\",\"href\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movie/\"},\"method\":\"POST\",\"headers\":{\"User-Agent\":\"usergrid-nodejs/v2.0.0-rc.2\",\"accept\":\"application/json\",\"content-type\":\"application/json\",\"content-length\":258}}}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "eff4ae9b-59bf-ffcc-f41a-009138107f15",
+					"name": "Create Success 2",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movie\n",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"name": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"data": "{ \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Josh\",         \n\"lastName\": \"Nguyen\",          \n\"age\": 40,\n\"height\": 66\n},    \n{ \"firstName\": \"Daly\",        \n\"lastName\": \"Taylor\",         \n\"age\": 32,\n\"height\": 55\n},        \n{\"firstName\": \"Drew\",          \n\"lastName\": \"Funkup\",         \n\"age\": 32, \n\"height\": 56  \n}],      \n\"ID\": \"004\",     \n\"title\": \"Dragon Ball\",      \n\"year\":  2015  }}\n",
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"movie\": {\n\"actors\": \n[{\n\"firstName\": \"Josh\",         \n\"lastName\": \"Nguyen\",          \n\"age\": 40,\n\"height\": 66\n},    \n{ \"firstName\": \"Daly\",        \n\"lastName\": \"Taylor\",         \n\"age\": 32,\n\"height\": 55\n},        \n{\"firstName\": \"Drew\",          \n\"lastName\": \"Funkup\",         \n\"age\": 32, \n\"height\": 56  \n}],      \n\"ID\": \"004\",     \n\"title\": \"Dragon Ball\",      \n\"year\":  2015  }}\n"
+		},
+		{
+			"id": "ddf2cfb9-8894-cf42-a0a4-3b94b1f37afc",
+			"headers": "",
+			"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "ef286db1-e7b6-b56a-bde5-e26d113b7132",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+			"description": "Delete one movie success!",
+			"descriptionFormat": "html",
+			"time": 1491109274255,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 407,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1536",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 05:00:51 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"600-ObBI7GkBL4ViVqtGEEkj03np2fY\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"movie deleted\",\"movie\":{\"statusCode\":200,\"body\":{\"action\":\"delete\",\"application\":\"8e19d668-1642-11e7-a2c2-122e0737977d\",\"params\":{},\"path\":\"/movies\",\"uri\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies\",\"entities\":[{\"uuid\":\"0e8827d6-1761-11e7-990c-0eec2415f3df\",\"type\":\"movie\",\"created\":1491109128116,\"modified\":1491109128341,\"actors\":[{\"firstName\":\"Kelly\",\"lastName\":\"Chris\",\"age\":40,\"height\":65},{\"firstName\":\"Kristen\",\"lastName\":\"Truong\",\"age\":49,\"height\":70}],\"ID\":\"007\",\"metadata\":{\"path\":\"/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"size\":764},\"title\":\"Stars War\",\"year\":2022}],\"timestamp\":1491109251665,\"duration\":35,\"organization\":\"vinh\",\"applicationName\":\"sandbox\"},\"headers\":{\"access-control-allow-origin\":\"*\",\"content-type\":\"application/json\",\"date\":\"Sun, 02 Apr 2017 05:00:51 GMT\",\"server\":\"Apache-Coyote/1.1\",\"set-cookie\":[\"rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Sat, 01-Apr-2017 05:00:51 GMT\"],\"content-length\":\"864\",\"connection\":\"keep-alive\"},\"request\":{\"uri\":{\"protocol\":\"https:\",\"slashes\":true,\"auth\":null,\"host\":\"apibaas-trial.apigee.net\",\"port\":443,\"hostname\":\"apibaas-trial.apigee.net\",\"hash\":null,\"search\":null,\"query\":null,\"pathname\":\"/vinh/sandbox/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"path\":\"/vinh/sandbox/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\",\"href\":\"https://apibaas-trial.apigee.net/vinh/sandbox/movies/0e8827d6-1761-11e7-990c-0eec2415f3df\"},\"method\":\"DELETE\",\"headers\":{\"User-Agent\":\"usergrid-nodejs/v2.0.0-rc.2\",\"accept\":\"application/json\",\"content-length\":0}}}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "b91beded-6cd5-c1c3-3643-5176437a3a26",
+					"name": "Delete success",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+						"headers": [],
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 528,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "177",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Sun, 02 Apr 2017 05:01:23 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "ETag",
+							"key": "ETag",
+							"value": "W/\"b1-CmYkwPUCHbrVxWcjbMq5UvqPie8\"",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apigee Router",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"error\":{\"name\":\"service_resource_not_found\",\"description\":\"Service resource not found\",\"exception\":\"org.apache.usergrid.services.exceptions.ServiceResourceNotFoundException\"}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "2f8a3b82-f0e0-295b-2730-4ad87cdd6a33",
+					"name": "Can not delete twice for a movie",
+					"request": {
+						"url": "https://vinh1993-test.apigee.net/movie/movies/0e8827d6-1761-11e7-990c-0eec2415f3df",
+						"headers": [],
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
